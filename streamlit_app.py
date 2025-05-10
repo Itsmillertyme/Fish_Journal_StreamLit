@@ -742,6 +742,46 @@ jsonString = """
           "Time": "12:32 PM",
           "Location": "Carbide Park (Northern Dock)",
           "Weather": "Mostly cloudy; 62°F high, 48°F low; current 58°F; Barometric Pressure: 29.98 inHg (Falling); Winds: SW at 10–15 mph; Humidity: 58%; MoonPhase: Waxing Gibbous (~53%); BiteForecast: Good"
+        },
+        {
+          "Date": "05/06/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1 lb",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in MM Moonlight",
+          "Rod": "The Blue Jay",
+          "Time": "11:13 AM",
+          "Location": "Carbide Park (Northern Dock)",
+          "Weather": "Partly cloudy; high 73°F, low 51°F; current 62°F; Barometric Pressure: 30.00 inHg (Steady); Winds: SW at 10 mph; Humidity: 55%; MoonPhase: Waxing Gibbous (~60%); BiteForecast: Good"
+        },
+        {
+          "Date": "05/06/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.5 lb",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in MM Moonlight",
+          "Rod": "The Blue Jay",
+          "Time": "11:30 AM",
+          "Location": "Carbide Park (Northern Dock)",
+          "Weather": "Partly cloudy; high 73°F, low 51°F; current 62°F; Barometric Pressure: 30.00 inHg (Steady); Winds: SW at 10 mph; Humidity: 55%; MoonPhase: Waxing Gibbous (~60%); BiteForecast: Good"
+        },
+        {
+          "Date": "05/09/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "1.16 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Strike King 3X Elaztech Finesse Worm in Junebug",
+          "Rod": "The Blue Jay",
+          "Time": "10:59 AM",
+          "Location": "Carbide Park (Northern Rocky Bank)",
+          "Weather": "Mostly cloudy; high 66°F, low 50°F; current 60°F; Barometric Pressure: 29.94 inHg (Falling); Winds: SW at 10–12 mph; Humidity: 62%; MoonPhase: Waxing Gibbous (~90%); BiteForecast: Good"
+        },
+        {
+          "Date": "05/09/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.7 lbs",
+          "Lure": "Texas Rigged Yum Dinger in Green Pumpkin with Red Flake on a 3/0 EWG with 3/8 oz tungsten",
+          "Rod": "The Javelin",
+          "Time": "10:36 AM",
+          "Location": "Carbide Park (Northern Rocky Bank)",
+          "Weather": "Mostly cloudy; high 66°F, low 50°F; current 60°F; Barometric Pressure: 29.94 inHg (Falling); Winds: SW at 10–12 mph; Humidity: 62%; MoonPhase: Waxing Gibbous (~90%); BiteForecast: Good"
         }
       ]
     }
