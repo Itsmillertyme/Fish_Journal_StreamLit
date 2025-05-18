@@ -782,6 +782,16 @@ jsonString = """
           "Time": "10:36 AM",
           "Location": "Carbide Park (Northern Rocky Bank)",
           "Weather": "Mostly cloudy; high 66°F, low 50°F; current 60°F; Barometric Pressure: 29.94 inHg (Falling); Winds: SW at 10–12 mph; Humidity: 62%; MoonPhase: Waxing Gibbous (~90%); BiteForecast: Good"
+        },
+        {
+          "Date": "05/17/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "Dink",
+          "Lure": "Strike King Bitsy Bug in Pumpkin with a Baby Menace trailer in Green Pumpkin",
+          "Rod": "The Shinobi",
+          "Time": "8:15 PM",
+          "Location": "Carbide Park – North Western Drop Off",
+          "Weather": "Partly cloudy; 81°F high, 60°F low; current 72°F; Barometric Pressure: 30.07 inHg (Steady); Winds: SE at 6 mph; Humidity: 54%; MoonPhase: Waxing Gibbous (~94%); BiteForecast: Good"
         }
       ]
     }
