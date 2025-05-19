@@ -792,6 +792,16 @@ jsonString = """
           "Time": "8:15 PM",
           "Location": "Carbide Park – North Western Drop Off",
           "Weather": "Partly cloudy; 81°F high, 60°F low; current 72°F; Barometric Pressure: 30.07 inHg (Steady); Winds: SE at 6 mph; Humidity: 54%; MoonPhase: Waxing Gibbous (~94%); BiteForecast: Good"
+        },
+        {
+          "Date": "05/19/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "1.58 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "11:34 AM",
+          "Location": "Carbide Park (Northern Rocky Bank)",
+          "Weather": "Mostly sunny; high 79°F, low 70°F; current 75°F; Barometric Pressure: 29.93 inHg (Falling); Winds: SW at 10–12 mph; Humidity: 62%; MoonPhase: Waning Gibbous (~90%); BiteForecast: Good"
         }
       ]
     }
