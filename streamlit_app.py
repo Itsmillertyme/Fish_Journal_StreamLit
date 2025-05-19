@@ -863,11 +863,11 @@ st.title("🎣 Fishing Journal")
 
 # Get available years
 years = list(data["FishingJournal"].keys())
-selected_year = st.selectbox("Select Year", years)
+selected_year = st.selectbox("Select Year", years, index = len(years)-1)
 
 # Get available months for selected year
 months = list(data["FishingJournal"][selected_year].keys())
-selected_month = st.selectbox("Select Month", months)
+selected_month = st.selectbox("Select Month", months, index = len(months)-1)
 
 # Display entries
 st.header(f"Entries for {selected_month} {selected_year}")
