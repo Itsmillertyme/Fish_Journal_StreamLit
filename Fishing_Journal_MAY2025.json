@@ -451,6 +451,68 @@
           "Location": "Camping Cove (Campsite - Right Bank)",
           "Weather": "Clear skies; high 78°F, low 62°F; current 68°F; Barometric Pressure: 29.88 inHg (Falling); Winds: E at 4–6 mph; Humidity: 60%; MoonPhase: Waning Gibbous (~85%); BiteForecast: Fair"
         }
+      ],
+      "June" : [
+        {
+          "Date": "06/14/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.7 lbs",
+          "Lure": "Caffeine Shad in Pearl on a 1/4 oz Drop Shot rig",
+          "Rod": "The Shinobi",
+          "Time": "12:03 PM",
+          "Location": "Carbide Park (North Western Drop Off)",
+          "Weather": "Mostly cloudy, ~75°F; Barometric Pressure: ~30.06 inHg (Rising); Winds: NE at 6–8 mph; Humidity: ~67%; MoonPhase: ~Waning Crescent (~20%); BiteForecast: Good"
+        },
+        {
+          "Date": "06/15/2025 Father's Day",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.75 lbs",
+          "Lure": "Strike King 1/4 oz Green Pumpkin Structure Jig with a Baby Menace trailer in Watermelon",
+          "Rod": "The Blue Jay",
+          "Time": "10:58 AM",
+          "Location": "Carbide Park (Culvert boulder)",
+          "Weather": "Cloudy, ~80°F; Barometric Pressure: ~30.07 inHg (Steady); Winds: Light and variable; Humidity: ~70%; MoonPhase: Waning Crescent (~20%); BiteForecast: Good"
+        },
+        {
+          "Date": "06/15/2025 Father's Day",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.75 lbs",
+          "Lure": "Strike King 1/4 oz Green Pumpkin Structure Jig with a Baby Menace trailer in Watermelon",
+          "Rod": "The Blue Jay",
+          "Time": "11:05 AM",
+          "Location": "Carbide Park (Culvert boulder)",
+          "Weather": "Cloudy, ~80°F; Barometric Pressure: ~30.07 inHg (Steady); Winds: Light and variable; Humidity: ~70%; MoonPhase: Waning Crescent (~20%); BiteForecast: Good"
+        },
+        {
+          "Date": "06/15/2025 Father's Day",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.5 lbs",
+          "Lure": "1/8 oz. All White Marabou Jig",
+          "Rod": "The Shinobi",
+          "Time": "11:18 AM",
+          "Location": "Carbide Park (Culvert boulder)",
+          "Weather": "Cloudy, ~80°F; Barometric Pressure: ~30.07 inHg (Steady); Winds: Light and variable; Humidity: ~70%; MoonPhase: Waning Crescent (~20%); BiteForecast: Good"
+        },
+        {
+          "Date": "06/15/2025 Father's Day",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "12:52 PM",
+          "Location": "Carbide Park (Culvert boulder)",
+          "Weather": "Cloudy, ~80°F; Barometric Pressure: ~30.07 inHg (Steady); Winds: Light and variable; Humidity: ~70%; MoonPhase: Waning Crescent (~20%); BiteForecast: Good"
+        },
+        {
+          "Date": "06/15/2025 Father's Day",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "1:00 PM",
+          "Location": "Carbide Park (Culvert boulder)",
+          "Weather": "Cloudy, ~80°F; Barometric Pressure: ~30.07 inHg (Steady); Winds: Light and variable; Humidity: ~70%; MoonPhase: Waning Crescent (~20%); BiteForecast: Good"
+        }
       ]
     }
   }
