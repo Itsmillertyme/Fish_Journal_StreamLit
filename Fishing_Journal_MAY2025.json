@@ -602,6 +602,36 @@
           "Time": "11:10 AM",
           "Location": "Carbide Park (Culvert boulder)",
           "Weather": "Partly cloudy; 84°F high, 65°F low; current 78°F; Barometric Pressure: 29.91 inHg (Falling); Winds: SSW at 8 mph; Humidity: 60%; MoonPhase: Waxing Gibbous (~95%); BiteForecast: Fair"
+        },
+        {
+          "Date": "06/22/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "9:44 AM",
+          "Location": "Melton Hill Lake (Dock Cove across from Dirty Dick Cove)",
+          "Weather": "Sunny, 78°F; Barometric Pressure: 30.17 inHg (Rising); Winds: E at 4 mph; Humidity: 60%; MoonPhase: Waning Gibbous (~78%); BiteForecast: Fair"
+        },
+        {
+          "Date": "06/22/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.7 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "10:17 AM",
+          "Location": "Melton Hill Lake (Beaver Creek, first bend)",
+          "Weather": "Sunny, 81°F; Barometric Pressure: 30.19 inHg (Rising); Winds: E at 4 mph; Humidity: 58%; MoonPhase: Waning Gibbous (~78%); BiteForecast: Fair"
+        },
+        {
+          "Date": "06/22/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.2 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "10:25 AM",
+          "Location": "Melton Hill Lake (Beaver Creek, first bend)",
+          "Weather": "Sunny, 82°F; Barometric Pressure: 30.20 inHg (Rising); Winds: ESE at 5 mph; Humidity: 56%; MoonPhase: Waning Gibbous (~78%); BiteForecast: Fair"
         }
       ]
     }
