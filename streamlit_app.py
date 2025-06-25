@@ -1,7 +1,7 @@
-
 # import streamlit as st
 # import json
 # import os
+# from collections import defaultdict
 
 # # File is in the same directory
 # json_file_path = os.path.join(os.path.dirname(__file__), "Fishing_Journal_MAY2025.json")
@@ -23,38 +23,65 @@
 
 # # Get available years
 # years = list(data["FishingJournal"].keys())
-# selected_year = st.selectbox("Select Year", years, index=len(years) - 1)
 
-# # Get available months for selected year
-# months = list(data["FishingJournal"][selected_year].keys())
-# selected_month = st.selectbox("Select Month", months, index=len(months) - 1)
+# # Create a tab for each year
+# year_tabs = st.tabs(years)
 
-# # Display entries
-# st.header(f"Entries for {selected_month} {selected_year}")
+# for i, year in enumerate(years):
+#     with year_tabs[i]:
+#         st.header(f"📘 Entries for {year}")
 
-# entries = data["FishingJournal"][selected_year][selected_month]
+#         # Get available months for this year
+#         months = list(data["FishingJournal"][year].keys())
+#         selected_month = st.selectbox(f"Select Month for {year}", months, index=len(months) - 1, key=f"month_{year}")
 
-# if not entries:
-#     st.info("No entries for this month.")
-# else:
-#     for entry in entries:
-#         st.subheader(f"📅 {entry.get('Date', 'Unknown Date')}")
+#         st.subheader(f"Entries for {selected_month} {year}")
 
-#         if "Note" in entry:
-#             st.write(f"**Note:** {entry['Note']}")
-#         if "Species" in entry:
-#             st.write(f"**Species:** {entry['Species']}")
-#         if "SpeciesCaught" in entry:
-#             st.write(f"**Species Caught:** {', '.join(entry['SpeciesCaught'])}")
-#         if "Weight" in entry:
-#             st.write(f"**Weight:** {entry['Weight']}")
+#         entries = data["FishingJournal"][year][selected_month]
 
-#         st.write(f"**Lure:** {entry['Lure']}")
-#         st.write(f"**Rod:** {entry['Rod']}")
-#         st.write(f"**Time:** {entry['Time']}")
-#         st.write(f"**Location:** {entry['Location']}")
-#         st.write(f"**Weather:** {entry['Weather']}")
-#         st.markdown("---")
+#         if not entries:
+#             st.info("No entries for this month.")
+#         else:
+#             # Group entries by date
+#             entries_by_date = defaultdict(list)
+#             for entry in entries:
+#                 date = entry.get("Date", "Unknown Date")
+#                 entries_by_date[date].append(entry)
+
+#             for date, date_entries in entries_by_date.items():
+#                 # Extract weather from the first entry of the day
+#                 weather_raw = date_entries[0].get("Weather", "Unknown")
+                
+#                 catch_label = "catch" if len(date_entries) == 1 else "catches"
+#                 with st.expander(f"📅 {date} — {len(date_entries)} {catch_label}", expanded=False):
+#                     # Underlined Weather Subheader
+#                     st.markdown("<h3 style='text-decoration: underline;'>Weather</h3>", unsafe_allow_html=True)
+
+#                     # Parse and display weather fields
+#                     weather_parts = [w.strip() for w in weather_raw.split(";") if ":" in w]
+#                     for part in weather_parts:
+#                         label, value = part.split(":", 1)
+#                         st.write(f"**{label.strip()}:** {value.strip()}")
+
+#                     st.markdown("---")
+
+#                     for idx, entry in enumerate(date_entries, 1):
+#                         st.markdown(f"**🎣 Catch {idx}:**")
+
+#                         if "Note" in entry:
+#                             st.write(f"**Note:** {entry['Note']}")
+#                         if "Species" in entry:
+#                             st.write(f"**Species:** {entry['Species']}")
+#                         if "SpeciesCaught" in entry:
+#                             st.write(f"**Species Caught:** {', '.join(entry['SpeciesCaught'])}")
+#                         if "Weight" in entry:
+#                             st.write(f"**Weight:** {entry['Weight']}")
+
+#                         st.write(f"**Lure:** {entry['Lure']}")
+#                         st.write(f"**Rod:** {entry['Rod']}")
+#                         st.write(f"**Time:** {entry['Time']}")
+#                         st.write(f"**Location:** {entry['Location']}")
+#                         st.markdown("---")
 import streamlit as st
 import json
 import os
@@ -108,17 +135,22 @@ for i, year in enumerate(years):
             for date, date_entries in entries_by_date.items():
                 # Extract weather from the first entry of the day
                 weather_raw = date_entries[0].get("Weather", "Unknown")
-                
+                weather_parts = [w.strip() for w in weather_raw.split(";") if w.strip()]
+
+                # First part = forecast
+                forecast = weather_parts[0] if weather_parts else "Unknown"
+                details = weather_parts[1:] if len(weather_parts) > 1 else []
+
                 catch_label = "catch" if len(date_entries) == 1 else "catches"
                 with st.expander(f"📅 {date} — {len(date_entries)} {catch_label}", expanded=False):
-                    # Underlined Weather Subheader
-                    st.markdown("<h3 style='text-decoration: underline;'>Weather</h3>", unsafe_allow_html=True)
+                    # Underlined subheader with forecast inline
+                    st.markdown(f"<h3 style='text-decoration: underline;'>Weather: {forecast}</h3>", unsafe_allow_html=True)
 
-                    # Parse and display weather fields
-                    weather_parts = [w.strip() for w in weather_raw.split(";") if ":" in w]
-                    for part in weather_parts:
-                        label, value = part.split(":", 1)
-                        st.write(f"**{label.strip()}:** {value.strip()}")
+                    # Display remaining weather fields
+                    for part in details:
+                        if ":" in part:
+                            label, value = part.split(":", 1)
+                            st.write(f"**{label.strip()}:** {value.strip()}")
 
                     st.markdown("---")
 
