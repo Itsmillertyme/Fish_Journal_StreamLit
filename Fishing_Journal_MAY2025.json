@@ -684,6 +684,26 @@
           "Time": "12:00 PM",
           "Location": "Adventure Bound Campground (Gatlinburg) Fishing Pond",
           "Weather": "Mostly sunny, 86°F; Barometric Pressure: 30.01 inHg (Steady); Winds: SW at 6 mph; Humidity: 61%; MoonPhase: Last Quarter (~49%); BiteForecast: Fair"
+        },
+        {
+          "Date": "07/02/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "<0.5 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "10:20 AM",
+          "Location": "Carbide Park (Culvert)",
+          "Weather": "Partly sunny, 84°F; Barometric Pressure: 29.91 inHg (Falling); Winds: WNW at 7 mph; Humidity: 62%; MoonPhase: Waning Crescent (~6%); BiteForecast: Moderate"
+        },
+        {
+          "Date": "07/02/2025",
+          "Species": "Smallmouth Bass",
+          "Weight": "3.42 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "10:49 AM",
+          "Location": "Carbide Park (Culvert boulder)",
+          "Weather": "Partly sunny, 85°F; Barometric Pressure: 29.91 inHg (Falling); Winds: WNW at 7 mph; Humidity: 61%; MoonPhase: Waning Crescent (~6%); BiteForecast: Moderate to Good"
         }
       ]
     }
