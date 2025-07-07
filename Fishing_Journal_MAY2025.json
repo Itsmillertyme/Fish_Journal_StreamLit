@@ -704,6 +704,26 @@
           "Time": "10:49 AM",
           "Location": "Carbide Park (Culvert boulder)",
           "Weather": "Partly sunny, 85°F; Barometric Pressure: 29.91 inHg (Falling); Winds: WNW at 7 mph; Humidity: 61%; MoonPhase: Waning Crescent (~6%); BiteForecast: Moderate to Good"
+        },
+        {
+          "Date": "07/05/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "<0.5 lbs",
+          "Lure": "1/8 oz All White Marabou Jig",
+          "Rod": "The Hay Penny",
+          "Time": "10:20 AM",
+          "Location": "Melton Hill Marina (Boat Dock D)",
+          "Weather": "Mostly sunny, 84°F; Barometric Pressure: 29.95 inHg (Steady); Winds: SSW at 6 mph; Humidity: 65%; MoonPhase: Waxing Crescent (~27%); BiteForecast: Fair to Moderate"
+        },
+        {
+          "Date": "07/06/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "0.5 lbs",
+          "Lure": "3/16 oz Screw‑Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "8:20 PM",
+          "Location": "Carbide Park (Culvert - Inside)",
+          "Weather": "Partly cloudy, 82°F; Barometric Pressure: 29.91 inHg (Falling); Winds: NW at 4 mph; Humidity: 71%; MoonPhase: Waxing Crescent (~39%); BiteForecast: Moderate"
         }
       ]
     }
