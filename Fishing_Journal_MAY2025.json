@@ -754,6 +754,26 @@
           "Time": "12:19 PM",
           "Location": "Melton Hill Marina (Boat Dock A)",
           "Weather": "Mostly sunny, 86°F; Barometric Pressure: 29.95 inHg (Rising); Winds: SW at 4 mph; Humidity: 58%; MoonPhase: Waxing Gibbous (~74%); BiteForecast: Moderate to Good"
+        },
+        {
+          "Date": "07/10/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "Weightless Texas Rigged 4\" Caffeine Shad in KVD Magic",
+          "Rod": "The White Ranger",
+          "Time": "8:44 PM",
+          "Location": "Carbide Park (Culvert Boulder)",
+          "Weather": "Mostly clear, 80°F; Barometric Pressure: 29.96 inHg (Rising); Winds: S at 3 mph; Humidity: 67%; MoonPhase: Waxing Gibbous (~76%); BiteForecast: Moderate to Good"
+        },
+        {
+          "Date": "07/10/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "Weightless Texas Rigged 4\" Caffeine Shad in KVD Magic",
+          "Rod": "The White Ranger",
+          "Time": "9:00 PM",
+          "Location": "Carbide Park (Culvert Boulder)",
+          "Weather": "Mostly clear, 79°F; Barometric Pressure: 29.96 inHg (Rising); Winds: S at 2 mph; Humidity: 69%; MoonPhase: Waxing Gibbous (~76%); BiteForecast: Good"
         }
       ]
     }
