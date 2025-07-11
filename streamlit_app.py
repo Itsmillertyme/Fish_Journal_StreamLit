@@ -105,8 +105,11 @@ except json.JSONDecodeError as e:
 # Title
 st.title("🎣 Fishing Journal")
 
-# Get available years
-years = list(data["FishingJournal"].keys())
+# # Get available years
+# years = list(data["FishingJournal"].keys())
+
+years = sorted(data["FishingJournal"].keys())  # Ascending
+years.reverse()  # Now most recent year is first
 
 # Create a tab for each year
 year_tabs = st.tabs(years)
