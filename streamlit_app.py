@@ -162,6 +162,8 @@ for i, year in enumerate(years):
 
                         if "Note" in entry:
                             st.write(f"**Note:** {entry['Note']}")
+                        if "Notew" in entry:
+                            st.write(f"**Catch Notes:** {entry['Notes']}")
                         if "Species" in entry:
                             st.write(f"**Species:** {entry['Species']}")
                         if "SpeciesCaught" in entry:
