@@ -162,8 +162,7 @@ for i, year in enumerate(years):
 
                         if "Note" in entry:
                             st.write(f"**Note:** {entry['Note']}")
-                        if "Notes" in entry:
-                            st.write(f"**Catch Notes:** {entry['Notes']}")
+                        
                         if "Species" in entry:
                             st.write(f"**Species:** {entry['Species']}")
                         if "SpeciesCaught" in entry:
@@ -175,4 +174,10 @@ for i, year in enumerate(years):
                         st.write(f"**Rod:** {entry['Rod']}")
                         st.write(f"**Time:** {entry['Time']}")
                         st.write(f"**Location:** {entry['Location']}")
+
+                        if "Notes" in entry: 
+                            st.write(f"**Catch Notes:** {entry['Notes']}")
+
                         st.markdown("---")
+
+                        
