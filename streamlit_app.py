@@ -577,20 +577,35 @@ for i, year in enumerate(years):
         # --- Color coding for percentage of successful days ---
         success_ratio = number_days_successful / days_in_month
         if success_ratio < 0.2:
-            percentage_color = "color:red"
+            success_percentage_color = "color:red"
         elif success_ratio < 0.5:
-            percentage_color = "color:yellow"
+            success_percentage_color = "color:yellow"
         else:
-            percentage_color = "color:green"
+            success_percentage_color = "color:green"
+
+        catches_ratio = len(entries)/days_in_month
+        if catches_ratio < 0.5:
+            catches_ratiopercentage_color = "color:red"
+        elif catches_ratio < 0.75:
+            catches_percentage_color = "color:yellow"
+        else:
+            catches_percentage_color = "color:green"
 
         # --- Display Monthly Statistics ---
         st.subheader(f"{selected_month} {year} - Visualization")
         st.markdown("**Statistics**")
-        st.markdown(f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total Fish Caught: {len(entries)}", unsafe_allow_html=True)
+        st.markdown(f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total Fish Caught: {len(entries)}", unsafe_allow_html=True)        
+        st.markdown(
+            f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fish Caught/Day: "
+            f"{len(entries)}/{days_in_month} - "
+            f"<span style={catches_percentage_color}>"
+            f"{round(catches_ratio * 100, 2)}%</span>",
+            unsafe_allow_html=True
+        )
         st.markdown(
             f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Days with a Catch: "
             f"{number_days_successful}/{days_in_month} - "
-            f"<span style={percentage_color}>"
+            f"<span style={success_percentage_color}>"
             f"{round(success_ratio * 100, 2)}%</span>",
             unsafe_allow_html=True
         )
