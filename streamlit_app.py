@@ -585,7 +585,7 @@ for i, year in enumerate(years):
 
         catches_ratio = len(entries)/days_in_month
         if catches_ratio < 0.5:
-            catches_ratiopercentage_color = "color:red"
+            catches_percentage_color = "color:red"
         elif catches_ratio < 0.75:
             catches_percentage_color = "color:yellow"
         else:
