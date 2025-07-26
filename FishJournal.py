@@ -680,6 +680,36 @@ for i, year in enumerate(years):
         )
         st.plotly_chart(fig)
 
+        # --- Prepare Data for Species Variety Pie Chart ---
+        fish_list = []
+        fish_amount_list = []        
+
+        for entry in entries:
+            fish = entry.get("Species")
+            if not fish:
+                continue
+
+            if fish in fish_list:
+                fish_amount_list[fish_list.index(fish)] += 1
+            else:
+                fish_list.append(fish)
+                fish_amount_list.append(1)
+
+        df_fish = pd.DataFrame({
+            'Fish': fish_list,
+            'Amount': fish_amount_list
+        })
+
+        # --- Plotly Pie Chart for Lure Variety ---
+        fig2 = px.pie(
+            df_fish,
+            values='Amount',
+            names='Fish',
+            title='Fish Variety',
+            color_discrete_sequence=custom_colors
+        )
+        st.plotly_chart(fig2)
+
         st.markdown("---")
 
         # --- Detailed Catch Data by Date ---
