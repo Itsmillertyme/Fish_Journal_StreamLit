@@ -470,6 +470,7 @@ import altair as alt
 import plotly.express as px
 from calendar import monthrange
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from collections import defaultdict, Counter
 import re
 
@@ -493,9 +494,13 @@ st.title("🎣 Fishing Journal")
 # --- Prepare Year Tabs (most recent first) ---
 years = sorted(data["FishingJournal"].keys(), reverse=True)
 year_tabs = st.tabs(years)
+most_recent_year = -1
 
 for i, year in enumerate(years):
     with year_tabs[i]:
+        if int(year) > int(most_recent_year):
+            most_recent_year = year
+
         st.header(f"📘 Entries for {year}")
 
         # --- Select Month ---
@@ -516,9 +521,17 @@ for i, year in enumerate(years):
         # --- Monthly Data Preparation ---
         month_number = months.index(selected_month) + 1
         days_in_month = monthrange(int(year), month_number)[1]
+        now = datetime.now(ZoneInfo("America/New_York"))
+        current_month = now.month
+        current_year = now.year
+ 
+        if current_month == month_number and current_year == int(most_recent_year):
+            days_stat_calc = now.day
+        else:
+            days_stat_calc = days_in_month
         
         # Initialize list to count catches per day
-        catch_data = [0] * days_in_month
+        catch_data = [0] * days_in_month 
         number_days_successful = 0
 
         # Count catches for each day
@@ -575,7 +588,7 @@ for i, year in enumerate(years):
             productive_time_range = "No time data"
 
         # --- Color coding for percentage of successful days ---
-        success_ratio = number_days_successful / days_in_month
+        success_ratio = number_days_successful / days_stat_calc
         if success_ratio < 0.2:
             success_percentage_color = "color:red"
         elif success_ratio < 0.5:
@@ -583,7 +596,7 @@ for i, year in enumerate(years):
         else:
             success_percentage_color = "color:green"
 
-        catches_ratio = len(entries)/days_in_month
+        catches_ratio = len(entries)/days_stat_calc
         if catches_ratio < 0.5:
             catches_percentage_color = "color:red"
         elif catches_ratio < 0.75:
@@ -597,7 +610,7 @@ for i, year in enumerate(years):
         st.markdown(f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total Fish Caught: {len(entries)}", unsafe_allow_html=True)        
         st.markdown(
             f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fish Caught/Day: "
-            f"{len(entries)}/{days_in_month} - "
+            f"{len(entries)}/{days_stat_calc} - "
             f"<span style={catches_percentage_color}>"
             f"{round(catches_ratio * 100, 2)}%</span>",
             unsafe_allow_html=True
