@@ -935,6 +935,74 @@
           "Notes": "Throwing towards Dock D in the first empty slip on the right",
           "Weather": "Mostly Sunny, 89°F; Barometric Pressure: ~30.01 in (steady); Wind: S at 6 mph; Humidity: ~58%; Moon Phase: Waning Gibbous; Bite Forecast: Fair"
         }
+      ],
+      "August" :[
+        {
+          "Date": "8/1/2025",
+          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Weight": "~0.75 lbs",
+          "Lure": "1/8 oz Rooster Tail in White and Chartreuse",
+          "Rod": "The Hay Penny",
+          "Time": "11:45 PM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Mostly Clear, 78°F; Barometric Pressure: ~29.98 in (steady); Wind: Calm; Humidity: ~72%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing toward flat near bank and slow rolling it"
+        },
+        {
+          "Date": "8/1/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.5 lbs",
+          "Lure": "Weightless Texas Rigged 4\" Caffeine Shad in KVD Magic",
+          "Rod": "The White Ranger",
+          "Time": "12:30 PM",
+          "Location": "Melton Hill Marina (Boat Dock C)",
+          "Weather": "Mostly Sunny, 89°F; Barometric Pressure: ~30.01 in (steady); Wind: S at 6 mph; Humidity: ~58%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing toward walkway, standing in front of boat. Bit on fall"
+        },
+        {
+          "Date": "8/2/2025",
+          "Species": "White Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "Weightless Texas Rigged 4\" Caffeine Shad in KVD Magic",
+          "Rod": "The White Ranger",
+          "Time": "9:44 AM",
+          "Location": "Melton Hill Marina (Boat Dock C)",
+          "Weather": "Mostly Sunny, 84°F; Barometric Pressure: ~30.05 in (steady); Wind: SSW at 5 mph; Humidity: ~63%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing toward walkway going toward D dock"
+        },
+        {
+          "Date": "8/2/2025",
+          "Species": "White Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "Weightless Texas Rigged 4\" Caffeine Shad in KVD Magic",
+          "Rod": "The White Ranger",
+          "Time": "10:34 AM",
+          "Location": "Melton Hill Marina (Boat Dock C)",
+          "Weather": "Mostly Sunny, 87°F; Barometric Pressure: ~30.06 in (steady); Wind: SSW at 5 mph; Humidity: ~60%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Site fishing between slips C5 and C6"
+        },
+        {
+          "Date": "8/2/2025",
+          "Species": "Yellow Perch",
+          "Weight": "~0.25 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "6:30 PM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Mostly Sunny, 89°F; Barometric Pressure: ~30.02 in (steady); Wind: S at 4 mph; Humidity: ~58%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing out toward flat away from dock, slow roll back"
+        },
+        {
+          "Date": "8/2/2025",
+          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Weight": "~0.5 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "6:40 PM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Mostly Sunny, 88°F; Barometric Pressure: ~30.02 in (steady); Wind: S at 4 mph; Humidity: ~59%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing out toward B dock slips nearer to walkway"
+        }
       ]
     }
   }
