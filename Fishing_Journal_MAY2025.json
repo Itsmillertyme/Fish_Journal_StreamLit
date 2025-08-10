@@ -1060,7 +1060,8 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Largemouth Bass - Yearling",
+          "Species": "Largemouth Bass",
+          "Weight": "Yearling",
           "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
           "Rod": "Jason's Zebco",
           "Time": "11:08 AM",
@@ -1070,7 +1071,8 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Largemouth Bass - ~0.5 lbs",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.5 lbs",
           "Lure": "Weightless Texas Rigged 4\" Caffeine Shad in KVD Magic",
           "Rod": "The White Ranger",
           "Time": "11:13 AM",
@@ -1080,7 +1082,8 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Shell Cracker (Redeye Sunfish) - ~0.5 lbs",
+          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Weight": "~0.5 lbs",
           "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
           "Rod": "Jason's Zebco",
           "Time": "11:45 AM",
@@ -1090,7 +1093,8 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Shell Cracker (Redeye Sunfish) - ~0.5 lbs",
+          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Weight": "~0.5 lbs",
           "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
           "Rod": "Jason's Zebco",
           "Time": "12:00 PM",
@@ -1100,7 +1104,8 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Shell Cracker (Redeye Sunfish) - ~0.5 lbs",
+          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Weight": "~0.5 lbs",
           "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
           "Rod": "Jason's Zebco",
           "Time": "12:45 PM",

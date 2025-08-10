@@ -474,6 +474,8 @@ from zoneinfo import ZoneInfo
 from collections import defaultdict, Counter
 import re
 
+st.set_page_config(layout="wide")
+
 # --- Load JSON Data ---
 json_file_path = os.path.join(os.path.dirname(__file__), "Fishing_Journal_MAY2025.json")
 
@@ -653,75 +655,111 @@ for i, year in enumerate(years):
         )
         st.altair_chart(chart, use_container_width=False)
 
-        # --- Prepare Data for Lure Variety Pie Chart ---
-        lure_list = []
-        lure_amount_list = []
+        cols = st.columns([1,1,1])
 
-        for entry in entries:
-            lure = entry.get("Lure", "Unknown")
-            if lure in lure_list:
-                lure_amount_list[lure_list.index(lure)] += 1
-            else:
-                lure_list.append(lure)
-                lure_amount_list.append(1)
+        with cols[0]:
+            # --- Prepare Data for Lure Variety Pie Chart ---
+            lure_list = []
+            lure_amount_list = []
 
-        df_lures = pd.DataFrame({
-            'Lures': lure_list,
-            'Amount': lure_amount_list
-        })
+            for entry in entries:
+                lure = entry.get("Lure", "Unknown")
+                if lure in lure_list:
+                    lure_amount_list[lure_list.index(lure)] += 1
+                else:
+                    lure_list.append(lure)
+                    lure_amount_list.append(1)
 
-        custom_colors = [
-            '#636EFA',  # Blue (Streamlit default)
-            '#EF553B',  # Red
-            '#00CC96',  # Green
-            '#AB63FA',  # Purple
-            '#FFA15A',  # Orange
-            '#19D3F3',  # Light Blue
-            '#FF6692',  # Pink
-            '#B6E880',  # Light Green
-            '#FF97FF',  # Light Pink
-            '#FECB52'   # Yellow
-        ]
+            df_lures = pd.DataFrame({
+                'Lures': lure_list,
+                'Amount': lure_amount_list
+            })
 
-        # --- Plotly Pie Chart for Lure Variety ---
-        fig = px.pie(
-            df_lures,
-            values='Amount',
-            names='Lures',
-            title='Lure Variety',
-            color_discrete_sequence=custom_colors
-        )
-        st.plotly_chart(fig)
+            custom_colors = [
+                '#636EFA',  # Blue (Streamlit default)
+                '#EF553B',  # Red
+                '#00CC96',  # Green
+                '#AB63FA',  # Purple
+                '#FFA15A',  # Orange
+                '#19D3F3',  # Light Blue
+                '#FF6692',  # Pink
+                '#B6E880',  # Light Green
+                '#FF97FF',  # Light Pink
+                '#FECB52'   # Yellow
+            ]
 
-        # --- Prepare Data for Species Variety Pie Chart ---
-        fish_list = []
-        fish_amount_list = []        
+            # --- Plotly Pie Chart for Lure Variety ---
+            fig = px.pie(
+                df_lures,
+                values='Amount',
+                names='Lures',
+                title='Lure Variety',
+                color_discrete_sequence=custom_colors
+            )
+            st.plotly_chart(fig)
 
-        for entry in entries:
-            fish = entry.get("Species")
-            if not fish:
-                continue
+        with cols[1]:
+        
+            # --- Prepare Data for Species Variety Pie Chart ---
+            fish_list = []
+            fish_amount_list = []        
 
-            if fish in fish_list:
-                fish_amount_list[fish_list.index(fish)] += 1
-            else:
-                fish_list.append(fish)
-                fish_amount_list.append(1)
+            for entry in entries:
+                fish = entry.get("Species")
+                if not fish:
+                    continue
 
-        df_fish = pd.DataFrame({
-            'Fish': fish_list,
-            'Amount': fish_amount_list
-        })
+                if fish in fish_list:
+                    fish_amount_list[fish_list.index(fish)] += 1
+                else:
+                    fish_list.append(fish)
+                    fish_amount_list.append(1)
 
-        # --- Plotly Pie Chart for Lure Variety ---
-        fig2 = px.pie(
-            df_fish,
-            values='Amount',
-            names='Fish',
-            title='Fish Variety',
-            color_discrete_sequence=custom_colors
-        )
-        st.plotly_chart(fig2)
+            df_fish = pd.DataFrame({
+                'Fish': fish_list,
+                'Amount': fish_amount_list
+            })
+
+            # --- Plotly Pie Chart for Lure Variety ---
+            fig2 = px.pie(
+                df_fish,
+                values='Amount',
+                names='Fish',
+                title='Fish Variety',
+                color_discrete_sequence=custom_colors
+            )
+            st.plotly_chart(fig2)
+
+        with cols[2]:
+            # --- Prepare Data for Species Variety Pie Chart ---
+            rod_list = []
+            rod_amount_list = []        
+
+            for entry in entries:
+                rod = entry.get("Rod")
+                if not rod:
+                    continue
+
+                if rod in rod_list:
+                    rod_amount_list[rod_list.index(rod)] += 1
+                else:
+                    rod_list.append(rod)
+                    rod_amount_list.append(1)
+
+            df_rod = pd.DataFrame({
+                'Rod': rod_list,
+                'Caughtes': rod_amount_list
+            })
+
+            # --- Plotly Pie Chart for Lure Variety ---
+            fig3 = px.pie(
+                df_rod,
+                values='Caughtes',
+                names='Rod',
+                title='Rod Variety',
+                color_discrete_sequence=custom_colors
+            )
+            st.plotly_chart(fig3)
 
         st.markdown("---")
 
