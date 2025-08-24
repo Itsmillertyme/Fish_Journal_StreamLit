@@ -904,7 +904,7 @@
         },
         {
           "Date": "7/25/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "1/8 oz Rooster Tail in White and Chartreuse",
           "Rod": "The Hay Penny",
@@ -915,7 +915,7 @@
         },
         {
           "Date": "7/25/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "1/8 oz Rooster Tail in White and Chartreuse",
           "Rod": "The Hay Penny",
@@ -939,7 +939,7 @@
       "August" :[
         {
           "Date": "8/1/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.75 lbs",
           "Lure": "1/8 oz Rooster Tail in White and Chartreuse",
           "Rod": "The Hay Penny",
@@ -994,7 +994,7 @@
         },
         {
           "Date": "8/2/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "1/16 oz Rooster Tail in Stone Fly",
           "Rod": "The Hay Penny",
@@ -1016,7 +1016,7 @@
         },
         {
           "Date": "8/3/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "1/16 oz Rooster Tail in Stone Fly",
           "Rod": "The Hay Penny",
@@ -1027,7 +1027,7 @@
         },
         {
           "Date": "8/4/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "1/16 oz Rooster Tail in Stone Fly",
           "Rod": "The Hay Penny",
@@ -1038,7 +1038,7 @@
         },
         {
           "Date": "8/4/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "1/16 oz Rooster Tail in Stone Fly",
           "Rod": "The Hay Penny",
@@ -1049,7 +1049,7 @@
         },
         {
           "Date": "8/4/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "1/16 oz Rooster Tail in Stone Fly",
           "Rod": "The Hay Penny",
@@ -1082,7 +1082,7 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
           "Rod": "Jason's Zebco",
@@ -1093,7 +1093,7 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
           "Rod": "Jason's Zebco",
@@ -1104,7 +1104,7 @@
         },
         {
           "Date": "8/10/2025",
-          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Species": "Shell Cracker (Redear Sunfish)",
           "Weight": "~0.5 lbs",
           "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
           "Rod": "Jason's Zebco",
@@ -1134,6 +1134,72 @@
           "Location": "Carbide Park (Culvert Boulder)",
           "Weather": "Mostly Sunny, 87°F; Barometric Pressure: ~29.98 in (falling); Wind: SSW at 6 mph; Humidity: ~60%; Moon Phase: Waning Gibbous; Bite Forecast: Good",
           "Notes": "Threw past creek channel and burned it back until over top. Dead stick and hit on fall."
+        },
+        {
+          "Date": "8/21/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.5 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "8:45 PM",
+          "Location": "Melton Hill Marina (Boat Dock B)",
+          "Weather": "Partly Cloudy, 85°F; Barometric Pressure: ~29.96 in (steady); Wind: S at 5 mph; Humidity: ~70%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Threw boats facing gas dock and let almost touch bottom"
+        },
+        {
+          "Date": "8/23/2025",
+          "Species": "Skipjack Shad",
+          "Weight": "~1.0 lbs",
+          "Lure": "1/8 oz Dirty Jigs Swimbait head in Gizzard Shad with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "8:03 AM",
+          "Location": "Mouth of first cove on left past Melton Hill Marina",
+          "Weather": "Mostly Sunny, 81°F; Barometric Pressure: ~29.94 in (falling); Wind: SW at 6 mph; Humidity: ~74%; Moon Phase: Waning Crescent; Bite Forecast: Good",
+          "Notes": "Threw past busting school, reeled slow-medium just under surface"
+        },
+        {
+          "Date": "8/23/2025",
+          "Species": "White Bass",
+          "Weight": "~0.5 lbs",
+          "Lure": "1/8 oz Dirty Jigs Swimbait head in Gizzard Shad with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "8:06 AM",
+          "Location": "Mouth of first cove on left past Melton Hill Marina",
+          "Weather": "Mostly Sunny, 82°F; Barometric Pressure: ~29.93 in (falling); Wind: SW at 6 mph; Humidity: ~72%; Moon Phase: Waning Crescent; Bite Forecast: Good",
+          "Notes": "Threw past busting school, reeled slow-medium just under surface"
+        },
+        {
+          "Date": "8/23/2025",
+          "Species": "Skipjack Shad",
+          "Weight": "~1.0 lbs",
+          "Lure": "1/8 oz Dirty Jigs Swimbait head in Gizzard Shad with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "8:15 AM",
+          "Location": "Mouth of first cove on left past Melton Hill Marina",
+          "Weather": "Mostly Sunny, 83°F; Barometric Pressure: ~29.92 in (falling); Wind: SW at 6 mph; Humidity: ~70%; Moon Phase: Waning Crescent; Bite Forecast: Good",
+          "Notes": "Threw past busting school, reeled slow-medium just under surface"
+        },
+        {
+          "Date": "8/23/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "1/8 oz Dirty Jigs Swimbait head in Gizzard Shad with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "8:56 AM",
+          "Location": "Large flats in between islands across from mouth of Jackass Cove",
+          "Weather": "Mostly Sunny, 85°F; Barometric Pressure: ~29.91 in (falling); Wind: SW at 7 mph; Humidity: ~68%; Moon Phase: Waning Crescent; Bite Forecast: Good",
+          "Notes": "Threw past busting school, reeled slow-medium just under surface"
+        },
+        {
+          "Date": "8/23/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "1/8 oz Dirty Jigs Swimbait head in Gizzard Shad with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "9:16 AM",
+          "Location": "Large flats in between islands across from mouth of Jackass Cove",
+          "Weather": "Mostly Sunny, 86°F; Barometric Pressure: ~29.90 in (falling); Wind: SW at 7 mph; Humidity: ~67%; Moon Phase: Waning Crescent; Bite Forecast: Good",
+          "Notes": "Threw past busting school, reeled slow-medium just under surface"
         }
       ]
     }
