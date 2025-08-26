@@ -1244,6 +1244,83 @@
           "Location": "Melton Hill Marina (Boat Dock C)",
           "Weather": "Partly Cloudy, 78°F; Barometric Pressure: ~29.91 in (falling); Wind: SSW at 3 mph; Humidity: ~77%; Moon Phase: Waning Crescent; Bite Forecast: Good",
           "Notes": "Threw front of slip C8, slow-medium retrieve"
+        },
+        {
+          "Date": "8/26/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "11:00 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 83°F; Barometric Pressure: ~29.93 in (falling); Wind: SSW at 5 mph; Humidity: ~71%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing out toward B dock slips nearer to walkway"
+        },
+        {
+          "Date": "8/26/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "Yearling",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "11:29 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 84°F; Barometric Pressure: ~29.93 in (falling); Wind: SSW at 5 mph; Humidity: ~70%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Fan casting towards bank. Slow-Medium retrieve"
+        },
+        {
+          "Date": "8/26/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "Yearling",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "11:50 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 85°F; Barometric Pressure: ~29.92 in (falling); Wind: SSW at 6 mph; Humidity: ~69%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Fan casting towards bank. Slow-Medium retrieve"
+        },
+        {
+          "Date": "8/26/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "11:59 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 85°F; Barometric Pressure: ~29.92 in (falling); Wind: SSW at 6 mph; Humidity: ~68%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Fan casting towards bank. Slow-Medium retrieve"
+        },
+        {
+          "Date": "8/26/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "11:59 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 85°F; Barometric Pressure: ~29.92 in (falling); Wind: SSW at 6 mph; Humidity: ~68%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing out toward B dock slips nearer to walkway"
+        },
+        {
+          "Date": "8/26/2025",
+          "Species": "Yellow Perch",
+          "Weight": "~0.25 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "12:31 PM",
+          "Location": "Melton Hill Marina (Boat Dock B)",
+          "Weather": "Partly Cloudy, 86°F; Barometric Pressure: ~29.91 in (falling); Wind: SSW at 6 mph; Humidity: ~67%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing out toward Gas dock nearer to walkway"
+        },
+        {
+          "Date": "8/26/2025",
+          "Species": "Shell Cracker (Redeye Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "12:45 PM",
+          "Location": "Melton Hill Marina (Boat Dock B)",
+          "Weather": "Partly Cloudy, 87°F; Barometric Pressure: ~29.91 in (falling); Wind: SSW at 7 mph; Humidity: ~66%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing out toward Gas dock nearer to walkway"
         }
       ]
     }
