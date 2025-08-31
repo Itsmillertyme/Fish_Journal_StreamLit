@@ -1321,6 +1321,226 @@
           "Location": "Melton Hill Marina (Boat Dock B)",
           "Weather": "Partly Cloudy, 87°F; Barometric Pressure: ~29.91 in (falling); Wind: SSW at 7 mph; Humidity: ~66%; Moon Phase: Waning Crescent; Bite Forecast: Fair",
           "Notes": "Throwing out toward Gas dock nearer to walkway"
+        },
+        {
+          "Date": "8/30/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "3/16 oz Screw-Lock Shaky Head with a Rage Menace trailer in Hard Candy",
+          "Rod": "The Blue Jay",
+          "Time": "6:50 PM",
+          "Location": "Lake Gisell",
+          "Weather": "Partly Cloudy, 84°F; Barometric Pressure: ~29.97 in (falling); Wind: S at 4 mph; Humidity: ~69%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Standing on northern bank, throwing towards western corner. Slow bounce and drag back"
+        },
+        {
+          "Date": "8/30/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.7 lbs",
+          "Lure": "1/8 oz Screw-Lock Shaky Head with a Rage Menace trailer in Black and Blue",
+          "Rod": "The Blue Jay",
+          "Time": "7:08 PM",
+          "Location": "Lake Gisell",
+          "Weather": "Partly Cloudy, 83°F; Barometric Pressure: ~29.96 in (falling); Wind: S at 4 mph; Humidity: ~70%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Standing on southern bank, throwing towards western diffuser. Slow bounce and drag back"
+        },
+        {
+          "Date": "8/30/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.8 lbs",
+          "Lure": "1/8 oz Screw-Lock Shaky Head with a Rage Menace trailer in Black and Blue",
+          "Rod": "The Blue Jay",
+          "Time": "7:12 PM",
+          "Location": "Lake Gisell",
+          "Weather": "Partly Cloudy, 83°F; Barometric Pressure: ~29.96 in (falling); Wind: S at 3 mph; Humidity: ~70%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Standing on southern bank, throwing towards western diffuser. Slow bounce and drag back"
+        },
+        {
+          "Date": "8/30/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.8 lbs",
+          "Lure": "1/8 oz Screw-Lock Shaky Head with a Rage Menace trailer in Black and Blue",
+          "Rod": "The Blue Jay",
+          "Time": "7:16 PM",
+          "Location": "Lake Gisell",
+          "Weather": "Partly Cloudy, 82°F; Barometric Pressure: ~29.96 in (falling); Wind: S at 3 mph; Humidity: ~71%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Standing on southern bank, throwing towards middle rock pile. Slow bounce and drag back"
+        },
+        {
+          "Date": "8/30/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.0 lbs",
+          "Lure": "1/8 oz Screw-Lock Shaky Head with a Rage Menace trailer in Black and Blue",
+          "Rod": "The Blue Jay",
+          "Time": "7:18 PM",
+          "Location": "Lake Gisell",
+          "Weather": "Partly Cloudy, 82°F; Barometric Pressure: ~29.95 in (falling); Wind: S at 3 mph; Humidity: ~71%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Standing on southern bank, throwing past middle diffuser towards metal pipe. Slow bounce and drag back"
+        },
+        {
+          "Date": "8/30/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.7 lbs",
+          "Lure": "1/8 oz Mushroom jighead in Green Pumpkin with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "7:19 PM",
+          "Location": "Lake Gisell",
+          "Weather": "Partly Cloudy, 82°F; Barometric Pressure: ~29.95 in (falling); Wind: S at 2 mph; Humidity: ~72%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Standing on southern bank, throwing past middle diffuser towards metal pipe. Slow-Medium retrieve"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "9:20 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 79°F; Barometric Pressure: ~30.01 in (steady); Wind: S at 5 mph; Humidity: ~74%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "9:30 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 80°F; Barometric Pressure: ~30.01 in (steady); Wind: S at 5 mph; Humidity: ~73%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "9:35 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 81°F; Barometric Pressure: ~30.00 in (steady); Wind: S at 5 mph; Humidity: ~72%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "9:45 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 82°F; Barometric Pressure: ~30.00 in (steady); Wind: S at 5 mph; Humidity: ~72%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward B dock slips"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "9:55 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 82°F; Barometric Pressure: ~30.00 in (steady); Wind: S at 6 mph; Humidity: ~71%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward B dock slips"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.5 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "10:10 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 83°F; Barometric Pressure: ~29.99 in (steady); Wind: S at 6 mph; Humidity: ~70%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward B dock slips"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.7 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "10:20 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 83°F; Barometric Pressure: ~29.99 in (steady); Wind: S at 6 mph; Humidity: ~70%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward B dock slips"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~1.0 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "10:34 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 84°F; Barometric Pressure: ~29.99 in (steady); Wind: S at 6 mph; Humidity: ~69%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward B dock slips"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "10:50 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 84°F; Barometric Pressure: ~29.98 in (steady); Wind: S at 7 mph; Humidity: ~69%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "11:00 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 85°F; Barometric Pressure: ~29.98 in (steady); Wind: S at 7 mph; Humidity: ~68%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.5 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "11:15 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 85°F; Barometric Pressure: ~29.98 in (steady); Wind: S at 7 mph; Humidity: ~68%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~1.2 lbs",
+          "Lure": "1/8 oz Mushroom jighead in Green Pumpkin with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "12:21 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 86°F; Barometric Pressure: ~29.97 in (steady); Wind: S at 7 mph; Humidity: ~67%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing toward busting school in slip C1. Slow-medium steady retrieve"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.5 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "11:40 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 86°F; Barometric Pressure: ~29.97 in (steady); Wind: S at 8 mph; Humidity: ~67%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
+        },
+        {
+          "Date": "8/31/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.5 lbs",
+          "Lure": "Slip Bobber rig with Red Worms on a #6 Aberdeen hook",
+          "Rod": "The Dragon Fly",
+          "Time": "11:50 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 86°F; Barometric Pressure: ~29.97 in (steady); Wind: S at 8 mph; Humidity: ~66%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
+          "Notes": "Throwing out toward bank"
         }
       ]
     }
