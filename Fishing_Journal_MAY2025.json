@@ -936,7 +936,7 @@
           "Weather": "Mostly Sunny, 89°F; Barometric Pressure: ~30.01 in (steady); Wind: S at 6 mph; Humidity: ~58%; Moon Phase: Waning Gibbous; Bite Forecast: Fair"
         }
       ],
-      "August" :[
+      "August" : [
         {
           "Date": "8/1/2025",
           "Species": "Shell Cracker (Redear Sunfish)",
@@ -1541,6 +1541,41 @@
           "Location": "Melton Hill Marina (Gas Dock)",
           "Weather": "Partly Cloudy, 86°F; Barometric Pressure: ~29.97 in (steady); Wind: S at 8 mph; Humidity: ~66%; Moon Phase: Waxing Crescent; Bite Forecast: Good",
           "Notes": "Throwing out toward bank"
+        }
+      ],
+      "September" : [
+        {
+          "Date": "9/2/2025",
+          "Species": "Largemouth Bass",
+          "Weight": "~0.6 lbs",
+          "Lure": "1/8 oz Mushroom jighead in Green Pumpkin with a 2.75\" Rage Swimmer in KVD Magic",
+          "Rod": "The Shinobi",
+          "Time": "9:52 AM",
+          "Location": "Melton Hill Marina (Boat Dock A)",
+          "Weather": "Partly Cloudy, 78°F; Barometric Pressure: ~30.05 in (steady); Wind: SW at 3 mph; Humidity: ~72%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Standing next to slip A16, throwing in front of shallow grass patch. Slow-medium retrieve"
+        },
+        {
+          "Date": "9/2/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "10:54 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 82°F; Barometric Pressure: ~30.04 in (steady); Wind: SW at 4 mph; Humidity: ~69%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing towards bank. Slow retrieve"
+        },
+        {
+          "Date": "9/2/2025",
+          "Species": "Shell Cracker (Redear Sunfish)",
+          "Weight": "~0.4 lbs",
+          "Lure": "1/16 oz Rooster Tail in Stone Fly",
+          "Rod": "The Hay Penny",
+          "Time": "11:15 AM",
+          "Location": "Melton Hill Marina (Gas Dock)",
+          "Weather": "Partly Cloudy, 84°F; Barometric Pressure: ~30.03 in (steady); Wind: SW at 5 mph; Humidity: ~67%; Moon Phase: Waxing Crescent; Bite Forecast: Fair",
+          "Notes": "Throwing towards B dock. Slow retrieve"
         }
       ]
     }
